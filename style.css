@@ -1,0 +1,42 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #ff9a9e, #fad0c4);
+  text-align: center;
+  padding: 50px;
+  color: #fff;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  padding: 30px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+button {
+  background-color: #fff;
+  color: #ff3366;
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #ffe6ec;
+}
+
+.oculto {
+  display: none;
+  margin-top: 30px;
+}
+
+img {
+  width: 150px;
+  margin-top: 20px;
+}
